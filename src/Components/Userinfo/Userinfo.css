@@ -1,0 +1,100 @@
+.userinfo {
+    width: 680px;
+    height: 400px;
+    box-shadow: 5px 5px 15px 10px hsla(228, 31%, 33%, 0.187);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.darkmood .userinfo {
+    background-color: hsl(228, 28%, 20%);
+    box-shadow: unset
+}
+
+#text {
+    display: flex;
+  gap: 80px;
+    flex-grow: 1;
+
+   
+}
+#text p{
+    margin: 0;
+}
+
+#avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+#data {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+}
+
+#link {
+    color: rgb(26, 116, 219);
+    font-size: 17px;
+
+   
+}
+
+.profile-states {
+    background-color: hsl(227, 47%, 96%);
+    display: flex;
+    justify-content: space-evenly;
+    width: 460px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 30px;
+    float: right;
+}
+
+.darkmood .profile-states {
+    background-color: hsl(230, 17%, 14%);
+}
+#bio{
+    width: 490px;
+    font-size: 15px;
+    float: right;
+    color: rgba(255, 255, 255, 0.63);
+    padding: 10px 0;
+ 
+}
+#bio p{
+    margin: 0px;
+}
+#num{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#num{
+    margin: 0;
+}
+
+.profileinfo{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    
+
+}
+.profileinfo p{
+    padding: 10px;
+}
+#tochange{
+    display: grid;
+    /* grid-template-columns: auto;
+    grid-template-rows: 80px 200px; */
+    float: right;
+}
+
+#link2{
+text-decoration: none;
+color: white;
+}

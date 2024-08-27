@@ -1,0 +1,14 @@
+/* .light{
+    background-color: azure;
+    color: aqua;
+} */
+.lightmood {
+    background-color: hsla(0, 12%, 97%, 0.913);
+}
+
+.darkmood {
+    background-color: hsl(230, 17%, 14%);
+    color: white;
+   
+
+}
